@@ -251,9 +251,10 @@ def settings(master, x, y):
                 button_color.pack()
 
     def quit_setting():
-        global open_set, window_set
+        global open_set, window_set, color_set
         open_set = False
         window_set = False
+        color_set = False
         window_settings.destroy()
 
     def move_setting(event):
