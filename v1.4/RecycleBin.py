@@ -97,6 +97,8 @@ def dragged_files(files):
 
 
 def show(event):
+    global alpha
+    alpha = 1
     bin_name.attributes('-alpha', 1)
 
 
